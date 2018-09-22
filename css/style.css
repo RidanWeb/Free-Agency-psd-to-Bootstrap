@@ -1,0 +1,363 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+@font-face {
+    font-family: helveticaNeue bold;
+    src: url(../fonts/helvetica-fonts/Helvetica Neu Bold.ttf);
+}
+
+@font-face {
+    font-family: helveticaNeue light;
+    src: url(../fonts/helvetica-fonts/HelveticaNeue Light.ttf);
+}
+
+@font-face {
+    font-family: helvetica normal;
+    src: url(../fonts/helvetica-fonts/helvetica.ttf);
+}
+
+body{
+	color: #424242;
+}
+
+
+/*top--header-start*/
+
+.top-header{
+	background: #F0F2F4;
+	border-bottom: 1px solid #E2E2E2;
+}
+.business-info{
+	padding: 8px 0;
+}
+.border-right{
+	border-right: 1px solid #E2E2E2 !important;
+}
+.custom-float{
+	float: right;
+}
+
+.business-info ul li span{
+	font-size: 15px;
+}
+
+.mob-icon{
+	font-size: 24px;
+}
+.mes-icon{
+	font-size: 19px;
+}
+.facebook{
+	font-size: 16px;
+	color: #ffffff;
+	background: #0085BC;
+	padding: 5px 8px;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+/*top--header-end*/
+
+/*menu-bar-start*/
+header{
+	padding: 40px 0 !important;
+}
+.nav-custom ul li a {
+    font-size: 15px;
+    padding: 0 !important;
+    color: #424242 !important;
+    padding: 3px 20px !important;
+    font-weight: 700;
+}
+.nav-custom ul li:first-child a{
+	padding-left: 0 !important;
+}
+.nav-custom ul li:last-child a{
+	padding-right: 0 !important;
+}
+.nav-custom ul li i{
+	font-size: 8px;
+}
+.btn-custom{
+	margin-left: 32px;
+}
+#active{
+	color: #de2b24 !important;
+}
+
+/*menu-bar-end*/
+/*banner-section-start*/
+.banner{
+	background: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 190px;
+	padding-bottom: 250px;
+}
+.banner-contant h1{
+	font-size: 48px;
+	font-weight: 700;
+}
+.banner-contant p{
+	font-size: 30px;
+	font-weight: 300;
+}
+.banner-contant a{
+    font-size: 23px;
+    padding: 15px 41px;
+    font-weight: 700;
+}
+/*banner-section-end*/
+
+/*about-us-start*/
+
+
+.about-us{
+	padding: 100px 0;
+}
+.same-text-top h1{
+	font-size: 36px;
+	font-weight: bold;
+}
+.same-text-top p{
+	font-size: 20px;
+	font-weight: 300;
+}
+.same-text-top hr{
+    border: none;
+    border: 5px solid #424242;
+    width: 50px;
+}      /* ---------------about-us-top-end-----------------*/
+
+.about-us-buttom h2{
+	font-size: 22px;
+	font-weight: 700;
+}
+.about-us-buttom p{
+	font-size: 17px;
+}
+/*about-us-end*/
+
+
+
+/*our-approch-start*/
+.our-approch{
+	background: #F3F3F3;
+	padding: 100px 0;
+}
+.approch-botton-bgc{
+    background: #ffffff;
+    margin-top: 45px;
+    box-shadow: 0px 0px 10px 2px #E5E5E5;
+}
+
+.approch-botton-image img{
+	position: relative;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+.step{
+    position: absolute;
+    right: -3%;
+    top: 28%;
+    background: #E83127;
+    width: 105px;
+    height: 105px;
+    border: 2px solid #ffffff;
+    z-index: 1;
+}
+.step-2 {
+    position: absolute;
+    left: -3%;
+    top: 28%;
+    background: #E83127;
+    width: 105px;
+    height: 105px;
+    border: 2px solid #ffffff;
+    z-index: 1;
+}
+.step h1,.step-2 h1{
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 50px;
+    padding-top: 10px;
+}
+.step p,.step-2 p{
+	font-size: 20px;
+	line-height: 26px;
+}
+.approch-bottom-right-text {
+    padding: 52px 51px;
+}
+.r-text{
+	text-align: right;
+}
+.approch-bottom-right-text h2{
+	font-size: 24px;
+}
+.approch-bottom-right-text p{
+    font-size: 18px;
+    text-align: justify;
+}
+/*our-approch-end*/
+
+/*our--work--start*/
+.our-work{
+	background: #E83127;
+	padding: 100px 0;
+}
+.custom-hr hr{
+    border: none;
+    border: 5px solid #F3F3F3;
+    width: 50px;
+}
+.wrapper{
+	position: relative;
+}
+.work-hover-contant{
+	position:absolute;
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;
+	background:rgba(260,97,90,0.7);
+	transform: scaleY(0);
+	transition: transform .5s;
+	padding: 95px 0;
+}
+.wrapper:hover .work-hover-contant{
+	transform: scaleY(1);
+}
+/*our--work--end*/
+
+/*fb-analysis-start*/
+.fb-analysis{
+	background: #0085BC;
+	padding: 100px 0;
+}
+.fb-analysis-contant{
+
+}
+.fb-analysis-contant h1{
+	font-size: 36px;
+}
+.fb-analysis-contant p{
+	font-size: 20px;
+}
+.button-custom{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    background: transparent;
+    border: 3px solid #ffffff;
+}
+.button-custom i{
+	font-size: 25px;
+}
+.analysis-form-contant{
+	background: #ffffff;
+	padding: 70px 0;
+	position: relative;
+	display: none;
+}
+.analysis-form-contant p{
+    font-size: 15px;
+    color: #828282;
+    margin-bottom: 40px !important;
+    padding: 0 70px;
+}
+.btn-cus{
+    padding: 12px 30px;
+    margin-top: 35px;
+}
+.analysis-form-contant::after {
+    content: "";
+    position: absolute;
+    top: -11%;
+    left: 50%;
+    margin-left: -28px;
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+.close-button{
+	position: absolute;
+	top: 32px;
+	right: 0;
+	display: none;
+	cursor: pointer;
+}
+.close-button i{
+    font-size: 22px;
+    color: #ffffff;
+    background: #E83127;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 13px 15px;
+    text-align: center;
+    z-index: 11111;
+}
+/*fb-analysis-end*/
+
+/*get-in-touch-start*/
+.get-in-touch{
+	background: #2A2A2A;
+	padding: 100px 0;
+}
+.touch-social h2{
+		font-size: 29px;
+		margin-bottom: 30px !important;
+}
+.touch-social i{
+     font-size: 23px; 
+    padding: 12px 13px;
+    border: 1px solid #515151 !important;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-right: 15px;	
+    margin-bottom: 35px;
+}
+.touch-social i:hover {
+     font-size: 23px; 
+    padding: 12px 13px;
+    border: 1px solid #dc3545 !important;
+    border-radius: 3px;
+}
+.touch-social p{
+	font-size: 15px;
+	color: #cecece;
+	margin-bottom: 34px !important;	
+}
+.touch-form input{
+	color: #ffffff;
+    background: #515151;
+    padding: 28px 20px !important;
+}
+.touch-button button{
+    border: none;
+    background: transparent;
+    border: 2px solid #515151;
+    padding: 13px 35px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.touch-button button:hover{
+	background: #515151;
+}
+/*get-in-touch-end*/
+
+/*footer-bottom-start*/
+.footer-bottom{
+	background: #515151;
+	padding: 25px 0;
+}
+.footer-bottom-contant p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #cecece;
+}
+/*footer-bottom-end*/

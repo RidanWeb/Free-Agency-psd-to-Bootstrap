@@ -1,0 +1,658 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/*top--header-start*/
+.business-info ul li span{
+	font-size: 12px;
+}
+.mes-icon{
+	font-size: 14px;
+}
+.facebook{
+	font-size: 12px;
+	margin-left: 0px;
+}
+/*top--header-end*/
+
+/*menu-bar-start*/
+header{
+	padding: 25px 0 !important;
+}
+.logo-custom img{
+	width: 180px;
+}
+.nav-custom ul li a {
+    font-size: 13px;
+    padding: 0 !important;
+    padding: 10px 0px !important;
+}
+.nav-custom ul li:first-child a{
+	padding-left: 0px !important;
+}
+.nav-custom ul li:last-child a{
+	padding-right: 0px !important;
+}
+.nav-custom ul li i{
+	display: none;
+}
+.btn-custom{
+	margin-left: 0px;
+}
+#active{
+	color: #de2b24 !important;
+}
+
+/*menu-bar-end*/
+/*banner-section-start*/
+.banner{
+    padding: 70px 0;
+}
+.banner-contant h1{
+	font-size: 25px;
+}
+.banner-contant p{
+    font-size: 14px;
+    padding: 8px 15px;
+}
+.banner-contant a{
+    font-size: 14px;
+    padding: 8px 15px;
+}
+/*banner-section-end*/
+
+
+/*about-us-start*/
+.about-us{
+	padding: 50px 0;
+}
+.same-text-top h1{
+	font-size: 25px;
+}
+.same-text-top p{
+	font-size: 14px;
+}
+.same-text-top hr{
+    border: 3px solid #424242;
+}      /* ---------------about-us-top-end-----------------*/
+.about-us-buttom img {
+    width: 45px;
+    height: 50px;
+    margin-bottom: 15px !important;
+}
+.about-us-buttom h2{
+	font-size: 18px;
+}
+.about-us-buttom p{
+	font-size: 15px;
+}
+/*about-us-end*/
+
+/*our-approch-start*/
+
+.our-approch{
+	padding: 50px 0;
+}
+.approch-botton-bgc{
+    margin-top: 25px;
+}
+.approch-botton-image{
+	position: relative;
+}
+.approch-botton-image img{
+	width: 100%;
+}.f-left{
+	float: none;
+}
+.f-right{
+	float: none;
+}
+.step{
+    right: 0%;
+    top: 30%;
+    width: 90px;
+    height: 90px;
+}
+.step-2 {
+    left: 0%;
+    top: 30%;
+    width: 90px;
+    height: 90px;
+}
+.step h1,.step-2 h1{
+	font-size: 33px;
+	line-height: 30px;
+    padding-top: 14px;
+}
+.step p,.step-2 p{
+	font-size: 18px;
+}
+.approch-bottom-right-text p {
+    font-size: 15px;
+    text-align: justify;
+}
+.approch-bottom-right-text {
+    padding: 20px 12px;
+}
+/*our-approch-end*/
+
+/*our--work--start*/
+.our-work{
+	padding: 50px 0;
+}
+.custom-hr hr{
+    border: 3px solid #F3F3F3;
+}
+.work-hover-contant{
+	padding: 180px 0;
+}
+/*our--work--end*/
+
+/*fb-analysis-start*/
+.fb-analysis{
+	padding: 50px 0;
+}
+.button-custom{
+    padding: 7px 13px;
+    border-radius: 50%;
+    background: transparent;
+    border: 3px solid #ffffff;
+}
+.button-custom i{
+	font-size: 22px;
+}
+.fb-analysis-contant h1{
+	font-size: 18px;
+}
+.fb-analysis-contant p{
+	font-size: 15px;
+}
+.analysis-form-contant{
+	padding: 50px 0;
+}
+.analysis-form-contant p{
+    font-size: 14px;
+    padding: 0 25px;
+}
+.btn-cus{
+    padding: 8px 20px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+.close-button i{
+    font-size: 18px;
+    padding: 10px 12px;
+}
+/*fb-analysis-end*/
+
+/*get-in-touch-start*/
+.get-in-touch{
+	padding: 50px 0;
+}
+.touch-social h2{
+		font-size: 25px;
+		margin-bottom: 18px;
+}
+.touch-social i{
+	font-size: 18px;
+    padding: 10px 10px;
+	margin-bottom: 15px	
+}
+.touch-social p{
+	font-size: 12px;
+	margin-bottom: 25px !important;	
+}
+.touch-form input {
+    color: #ffffff;
+    background: #515151;
+    padding: 22px 18px !important;
+}
+.touch-button button{
+    padding: 9px 25px;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+/*get-in-touch-end*/
+
+/*footer-bottom-start*/
+.footer-bottom{
+	padding: 17px 0;
+}
+.footer-bottom-contant p{
+	font-size: 12px;
+}
+/*footer-bottom-end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*top--header-start*/
+.business-info ul li span{
+	font-size: 14px;
+}
+.mes-icon{
+	font-size: 16px;
+}
+.facebook{
+	font-size: 14px;
+	margin-left: 0px;
+}
+/*top--header-end*/
+
+/*menu-bar-start*/
+header{
+	padding: 30px 0 !important;
+}
+.custon-design{
+    width: 225px;
+}
+.nav-custom ul li a {
+    font-size: 13px;
+    padding: 0 !important;
+    padding: 10px 0px !important;
+}
+.nav-custom ul li:first-child a{
+	padding-left: 0px !important;
+}
+.nav-custom ul li:last-child a{
+	padding-right: 0px !important;
+}
+.nav-custom ul li i{
+	display: none;
+}
+.btn-custom{
+	margin-left: 0px;
+}
+
+/*menu-bar-end*/
+/*banner-section-start*/
+.banner{
+	padding: 120px 0;
+}
+.banner-contant h1{
+	font-size: 30px;
+}
+.banner-contant p{
+	font-size: 18px;
+}
+.banner-contant a{
+    font-size: 15px;
+    padding: 12px 18px;
+}
+/*banner-section-end*/
+/*about-us-start*/
+.about-us{
+	padding: 65px 0;
+}
+.same-text-top h1{
+	font-size: 30px;
+}
+.same-text-top p{
+	font-size: 16px;
+}
+.same-text-top hr{
+    border: 4px solid #424242;
+}     
+ /* ---------------about-us-top-end-----------------*/
+.about-us-buttom img {
+    width: 52px;
+    height: 55px;
+}
+.about-us-buttom h2{
+	font-size: 20px;
+}
+.about-us-buttom p{
+	font-size: 16px;
+}
+/*about-us-end*/
+
+/*our-approch-start*/
+
+.our-approch{
+	padding: 65px 0;
+}
+.approch-botton-bgc{
+    margin-top: 35px;
+}
+.f-left{
+	float: none;
+}
+.f-right{
+	float: none;
+}
+.approch-bottom-right-text p {
+    font-size: 17px;
+}
+.approch-botton-image img{
+	width: 488px;
+}
+.step{
+    right: 0%;
+    top: 35%;
+    /*transform: translate(50%,-50%);*/
+}
+.step-2 {
+    left: 0%;
+    top: 35%;
+    /*transform: translate(-50%,-50%);*/
+}
+.f-right img{
+	float: right;
+}
+.step h1,.step-2 h1{
+	font-size: 45px;
+	line-height: 30px;
+	padding-top: 20px;
+}
+.step p,.step-2 p{
+	font-size: 18px;
+}
+.approch-bottom-right-text {
+    padding: 30px 30px;
+}
+/*our-approch-end*/
+
+/*our--work--start*/
+.our-work{
+	padding: 65px 0;
+}
+.custom-hr hr{
+    border: 4px solid #F3F3F3;
+}
+.work-hover-contant{
+	padding: 85px 0;
+}
+/*our--work--end*/
+
+/*fb-analysis-start*/
+.fb-analysis{
+	padding: 65px 0;
+}
+.button-custom{
+    padding: 8px 14px;
+}
+.button-custom i{
+	font-size: 28px;
+}
+.fb-analysis-contant h1{
+	font-size: 28px;
+}
+.fb-analysis-contant p{
+	font-size: 18px;
+}
+.analysis-form-contant{
+	padding: 60px 0;
+}
+.analysis-form-contant p{
+    font-size: 14px;
+    padding: 0 35px;
+}
+.btn-cus{
+    padding: 8px 20px;
+    margin-top: 25px;
+}
+.close-button i{
+    font-size: 18px;
+    padding: 10px 12px;
+}
+/*fb-analysis-end*/
+
+/*get-in-touch-start*/
+.get-in-touch{
+	padding: 65px 0;
+}
+.touch-social h2{
+		font-size: 30px;
+		margin-bottom: 18px;
+}
+.touch-social i{
+	font-size: 19px;
+	margin-bottom: 20px;	
+    padding: 10px 11px;
+}
+.touch-social p{
+	margin-bottom: 25px !important;	
+}
+.touch-form input {
+    padding: 25px 20px !important;
+}
+.touch-button button{
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+/*get-in-touch-end*/
+
+/*footer-bottom-start*/
+.footer-bottom{
+	padding: 20px 0;
+}
+.footer-bottom-contant p{
+	font-size: 14px;
+}
+/*footer-bottom-end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*top--header-start*/
+
+/*top--header-end*/
+
+/*menu-bar-start*/
+header{
+	padding: 40px 0 !important;
+}
+.custon-design{
+	width: 160px;
+}
+.nav-custom ul li a {
+    font-size: 14px;
+    padding: 3px 13px !important;
+}
+.btn-custom {
+    margin-left: 10px;
+    font-size: 14px;
+}
+/*menu-bar-end*/
+/*banner-section-start*/
+.banner {
+    padding: 165px 0;
+}
+.banner-contant h1{
+	font-size: 38px;
+}
+.banner-contant p{
+	font-size: 23px;
+}
+.banner-contant a{
+    font-size: 18px;
+    padding: 13px 25px;
+}
+/*banner-section-end*/
+
+/*about-us-start*/
+.about-us {
+    padding: 70px 0;
+}
+.same-text-top h1{
+	font-size: 32px;
+}
+.same-text-top hr {
+    border: 4px solid #424242;
+}
+.same-text-top p{
+	font-size: 18px;
+}
+/* ---------------about-us-top-end-----------------*/
+.about-us-buttom img {
+    width: 52px;
+    height: 55px;
+}
+.about-us-buttom h2{
+	font-size: 19px;
+}
+.about-us-buttom p{
+	font-size: 15px;
+}
+/*about-us-end*/
+
+/*our-approch-start*/
+.our-approch {
+    padding: 70px 0;
+}
+.step{
+    right: -18%;
+    top: 24%;
+    width: 85px;
+    height: 85px;
+}
+.step-2 {
+    left: -18%;
+    top: 24%;
+    width: 85px;
+    height: 85px;
+}
+.step h1, .step-2 h1 {
+    font-size: 40px;
+    line-height: 30px;
+}
+.approch-bottom-right-text {
+    padding: 4px 60px;
+}
+.approch-bottom-right-text h2{
+	font-size: 20px;
+
+}
+.approch-bottom-right-text p{
+	font-size: 15px;
+}
+
+/*our-approch-end*/
+
+/*our--work--start*/
+.our-work {
+    padding: 70px 0;
+}
+.work-hover-contant{
+	padding: 50px 0;
+}
+.work-hover-contant h2{
+	font-size: 22px;
+}
+.work-hover-contant p{
+	font-size: 14px;
+}
+/*our--work--end*/
+
+/*fb-analysis-start*/
+.fb-analysis {
+    padding: 70px 0;
+}
+.fb-analysis-contant h1{
+	font-size: 34px;
+}
+.fb-analysis-contant p{
+	font-size: 18px;
+}
+
+/*fb-analysis-end*/
+
+/*get-in-touch-start*/
+.get-in-touch {
+    padding: 70px 0;
+}
+.touch-social i {
+    font-size: 22px;
+    padding: 10px 11px;
+}
+.touch-social p {
+    font-size: 15px;
+}
+.touch-form input {
+    padding: 25px 20px !important;
+}
+.touch-button button {
+    padding: 11px 30px;
+    font-size: 16px;
+}
+/*get-in-touch-end*/
+
+/*footer-bottom-start*/
+
+
+/*footer-bottom-end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*banner-section-start*/
+.banner-contant h1 {
+    font-size: 42px;
+}
+.banner-contant p {
+    font-size: 27px;
+}
+.banner-contant a {
+    padding: 13px 30px;
+    font-size: 21px;
+}
+/*banner-section-end*/
+/*about-us-start*/
+.about-us {
+    padding: 80px 0;
+}
+/*about-us-end*/
+/*our-approch-start*/
+.our-approch{
+	padding: 80px 0;
+}
+.approch-bottom-right-text {
+    padding: 32px 51px;
+}
+.approch-bottom-right-text h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+.approch-bottom-right-text p{
+	font-size: 17px;
+}
+.step{
+    right: -16%;
+}
+.step-2 {
+    left: -16%;
+}
+/*our-approch-end*/
+/*our--work--start*/
+.our-work{
+	padding: 80px 0;
+}
+.work-hover-contant{
+	padding: 72px 0;
+}
+/*our--work--end*/
+/*fb-analysis-start*/
+.fb-analysis{
+	padding: 80px 0;
+}
+/*fb-analysis-end*/
+/*get-in-touch-start*/
+.get-in-touch{
+	padding: 80px 0;
+}
+.touch-form input {
+    padding: 26px 20px !important;
+}
+.touch-button button {
+    padding: 12px 35px;
+}
+/*get-in-touch-end*/
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
